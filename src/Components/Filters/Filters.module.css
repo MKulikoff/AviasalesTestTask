@@ -1,0 +1,11 @@
+.card {
+    background: white;
+    grid-area: filters; 
+}
+
+.card h4 {
+    color: #898989;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 1rem;
+}

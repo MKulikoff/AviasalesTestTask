@@ -1,0 +1,23 @@
+.sections_wrapper {
+    display: flex;
+    background: white;
+    grid-area: sections; 
+    align-self: start;
+}
+
+.cheapest_section {
+    background: #2196F3;
+    padding: 1rem;
+    color: white;
+    width: 50%; 
+}
+
+.fastest_section {
+    padding: 1rem;
+    width: 50%; 
+}
+
+p {
+    text-align: center;
+    
+}
