@@ -2,7 +2,7 @@
     display: flex;
     background: white;
     grid-area: sections; 
-    align-self: start;
+    align-self: start; 
 }
 
 .cheapest_section {

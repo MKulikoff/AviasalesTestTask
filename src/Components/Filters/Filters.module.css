@@ -1,6 +1,8 @@
 .card {
     background: white;
     grid-area: filters; 
+    align-self: start; 
+    padding: 0.5rem;
 }
 
 .card h4 {

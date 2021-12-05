@@ -23,7 +23,7 @@ body {
   grid-template-areas: 
     "filters sections sections"
     "filters tickets tickets"
-    "filters tickets tickets";
+    "filters tickets tickets"; 
     gap: 1rem; 
   grid-template-columns: 25% 1fr 1fr;
 }

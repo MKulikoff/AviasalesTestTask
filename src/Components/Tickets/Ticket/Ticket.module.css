@@ -1,9 +1,9 @@
 .card {
     padding: 1rem;
     background: white;
-    display: flex;
+    display: grid;
     flex-direction: column;
-    grid-area: tickets; 
+    margin-bottom: 1rem;
 }
 
 .price_logo {
@@ -32,4 +32,8 @@
 .title {
     color: #898989;
     font-size: 12px;
+}
+
+.transfers p {
+    font-size: 14px;
 }

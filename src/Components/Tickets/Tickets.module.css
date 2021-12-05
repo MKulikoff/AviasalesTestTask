@@ -1,0 +1,4 @@
+.tickets {
+    display: grid;
+    grid-area: tickets; 
+}
