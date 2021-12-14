@@ -67,8 +67,6 @@ const Ticket = (props) => {
     const frwdFlightDuration = setFlightTime(props.segments[0].duration); 
     const backFlightDuration = setFlightTime(props.segments[1].duration);
    
-
-    console.log(props)
     return (
         <div className={styles.card}>
             <div className={styles.price_logo}>
@@ -80,7 +78,7 @@ const Ticket = (props) => {
                     <h6 className={styles.title}>{`${props.segments[0].origin} - ${props.segments[0].destination}`}</h6>
                     <p>12:00 - 15:00</p>
                 </div>
-                <div className="onTheWay">
+                <div className={styles.onTheWay}>
                     <h6 className={styles.title}>В ПУТИ</h6>
                     <p>{frwdFlightDuration}</p>
                 </div>

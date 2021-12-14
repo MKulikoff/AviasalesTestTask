@@ -29,6 +29,10 @@
     margin: 0.5rem;
 }
 
+.way_there .way_back div { 
+    width: 100%; 
+}
+
 .title {
     color: #898989;
     font-size: 12px;
@@ -37,3 +41,4 @@
 .transfers p {
     font-size: 14px;
 }
+

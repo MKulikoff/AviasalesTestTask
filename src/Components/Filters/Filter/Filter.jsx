@@ -1,10 +1,12 @@
 import styles from './Filter.module.css'
 
-const Filter = (props) => {
+const Filter = ({title, setFilter}) => {
     return (
         <div className={styles.filter}>
-            <input type="checkbox" />
-            <label htmlFor="">{props.title}</label>
+            <input type="checkbox" onClick={() => {
+                setFilter(title)
+            }}/>
+            <label htmlFor="">{title}</label>
         </div>
     )
 }
